@@ -23,8 +23,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'wice_grid', path: '../wice_grid'
+gem 'wice_grid', github: 'patricklindsay/wice_grid'
 gem 'font-awesome-sass',  '~> 4.3'
+gem 'pry'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
